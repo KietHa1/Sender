@@ -1,0 +1,5 @@
+//esp_now_init(): Initializes ESP-NOW. You must initialize Wi-Fi before initializing ESP-NOW.
+//esp_now_add_peer(): Call this function to pair a device and pass as an argument the peer MAC address.
+//esp_now_send(): Send data with ESP-NOW.
+//esp_now_register_send_cb(): Register a callback function that is triggered upon sending data. When a message is sent, a function is called – this function returns whether the delivery was successful or not.
+//esp_now_register_recv_cb(): Register a callback function that is triggered upon receiving data. When data is received via ESP-NOW, a function is called.
